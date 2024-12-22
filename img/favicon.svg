@@ -2,17 +2,16 @@
   <!-- Фон и форма иконки -->
   <rect width="30.0007" height="30.0012" rx="6" fill="white"/>
   
-  <!-- Джойстик -->
+  <!-- Компьютер -->
   <g fill="none" stroke="url(#gradient)" stroke-width="2">
-    <!-- Ручка джойстика -->
-    <line x1="15" y1="10" x2="15" y2="20" stroke-linecap="round"/>
+    <!-- Экран компьютера -->
+    <rect x="5" y="6" width="20" height="15" rx="2" fill="url(#gradient)" stroke-linecap="round"/>
     
-    <!-- Переключатели -->
-    <circle cx="15" cy="7" r="2" fill="url(#gradient)"/>
-    <circle cx="12" cy="10" r="1" fill="url(#gradient)"/>
-    <circle cx="18" cy="10" r="1" fill="url(#gradient)"/>
-    <circle cx="12" cy="14" r="1" fill="url(#gradient)"/>
-    <circle cx="18" cy="14" r="1" fill="url(#gradient)"/>
+    <!-- Ножка компьютера -->
+    <rect x="12" y="22" width="6" height="2" fill="url(#gradient)" stroke-linecap="round"/>
+    
+    <!-- Кнопка на компьютере -->
+    <circle cx="15" cy="18" r="1" fill="url(#gradient)" />
   </g>
 
   <!-- Градиент для фиолетовых оттенков -->
