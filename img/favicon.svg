@@ -1,24 +1,25 @@
 <svg width="30" height="31" viewBox="0 0 30 31" xmlns="http://www.w3.org/2000/svg">
   <!-- Фон и форма иконки -->
   <rect width="30.0007" height="30.0012" rx="6" fill="white"/>
-
+  
   <!-- Джойстик -->
-  <g fill="none" stroke="black" stroke-width="2">
+  <g fill="none" stroke="url(#gradient)" stroke-width="2">
     <!-- Ручка джойстика -->
     <line x1="15" y1="10" x2="15" y2="20" stroke-linecap="round"/>
+    
     <!-- Переключатели -->
-    <circle cx="15" cy="7" r="2" fill="black"/>
-    <circle cx="12" cy="10" r="1" fill="black"/>
-    <circle cx="18" cy="10" r="1" fill="black"/>
-    <circle cx="12" cy="14" r="1" fill="black"/>
-    <circle cx="18" cy="14" r="1" fill="black"/>
+    <circle cx="15" cy="7" r="2" fill="url(#gradient)"/>
+    <circle cx="12" cy="10" r="1" fill="url(#gradient)"/>
+    <circle cx="18" cy="10" r="1" fill="url(#gradient)"/>
+    <circle cx="12" cy="14" r="1" fill="url(#gradient)"/>
+    <circle cx="18" cy="14" r="1" fill="url(#gradient)"/>
   </g>
 
-  <!-- Градиент для декоративных элементов -->
+  <!-- Градиент для фиолетовых оттенков -->
   <defs>
-    <linearGradient id="paint0_linear_66_6" x1="-2" y1="15" x2="32" y2="15" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4C01E0"/>
-      <stop offset="1" stop-color="#8C2BE2"/>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9B2FF5"/>
+      <stop offset="100%" stop-color="#7A3F9B"/>
     </linearGradient>
   </defs>
 </svg>
